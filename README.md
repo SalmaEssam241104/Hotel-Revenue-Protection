@@ -1,27 +1,27 @@
-# 🏨 Hotel Revenue Protection
+# Hotel Revenue Protection
 ### Hotel Booking Cancellation Prediction using Machine Learning
 
 **Internship Project – NextGen Institute**
 
-## 📌 Project Overview
+##  Project Overview
 Hotel Revenue Protection is a Machine Learning project developed as part of the **NextGen Institute Internship Program**.
 
 The project aims to predict whether a hotel booking will be canceled or not using Machine Learning techniques.
 
 The goal is to help hotels reduce revenue loss, improve booking management, and make better business decisions.
 
-## 🎯 Project Objectives
+##  Project Objectives
 - Predict hotel booking cancellations.
 - Apply and compare different Machine Learning models.
 - Identify important factors affecting booking cancellations.
 - Support hotels in protecting their revenue.
 
-## 🤖 Machine Learning Models
+##  Machine Learning Models
 - Logistic Regression
 - Random Forest
 - Tuned Random Forest
 
-## 🛠️ Technologies Used
+## Technologies Used
 - Python
 - Pandas
 - NumPy
@@ -30,7 +30,7 @@ The goal is to help hotels reduce revenue loss, improve booking management, and 
 - Matplotlib
 - Streamlit
 
-## 📂 Project Structure
+## Project Structure
 ```text
 Hotel-Revenue-Protection/
 ├── app.py
@@ -44,7 +44,7 @@ Hotel-Revenue-Protection/
     └── random_forest_tuned_model.pkl
 ```
 
-## ⚙️ Installation & Usage
+## Installation & Usage
 
 1. Clone the repository:
 ```bash
@@ -61,14 +61,14 @@ pip install -r requirements.txt
 streamlit run app.py
 ```
 
-## 📊 Expected Benefits
+## Expected Benefits
 - Reduce unexpected booking cancellations.
 - Improve hotel revenue management.
 - Support data-driven business decisions.
 
-## 🎓 Internship Information
+## Internship Information
 **Program:** Machine Learning Internship  
 **Organization:** NextGen Institute
 
-## 👩‍💻 Author
+##  Author
 Developed as an individual Machine Learning internship project at NextGen Institute.
