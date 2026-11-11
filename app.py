@@ -13,7 +13,7 @@ st.set_page_config(
 @st.cache_resource
 def load_artifacts():
     model = joblib.load("models/random_forest_tuned_model.pkl")
-    preprocessor = joblib.load("preprocessor.pkl")
+    preprocessor = joblib.load("models/preprocessor.pkl")
     return model, preprocessor
 
 try:
