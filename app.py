@@ -166,13 +166,6 @@ elif st.session_state.page == "booking":
                 value=30
             )
 
-            arrival_date_year = st.selectbox(
-                "Arrival Year",
-                [2015, 2016, 2017],
-                index=None,
-                placeholder="Select arrival year..."
-            )
-
             arrival_date_month = st.selectbox(
                 "Arrival Month",
                 [
@@ -359,7 +352,6 @@ elif st.session_state.page == "booking":
 
         required_values = {
             "Hotel Type": hotel,
-            "Arrival Year": arrival_date_year,
             "Arrival Month": arrival_date_month,
             "Meal Type": meal,
             "Market Segment": market_segment,
@@ -397,7 +389,6 @@ elif st.session_state.page == "booking":
             input_data = pd.DataFrame([{
                 "hotel": hotel,
                 "lead_time": lead_time,
-                "arrival_date_year": arrival_date_year,
                 "arrival_date_month": arrival_date_month,
                 "arrival_date_week_number": arrival_date_week_number,
                 "arrival_date_day_of_month": arrival_date_day_of_month,
